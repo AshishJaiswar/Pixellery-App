@@ -1,0 +1,18 @@
+.container-fluid {
+  overflow: hidden;
+}
+
+.row {
+  margin: 0 30px !important;
+}
+.image {
+  margin: 25px 0px !important;
+  object-fit: cover;
+}
+
+.video-item{
+  object-fit: cover !important;
+  height: 250px;
+  pointer: cursor;
+}
+

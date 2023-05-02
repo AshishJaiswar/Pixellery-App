@@ -1,0 +1,62 @@
+/* Logo Font */
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+
+.logo {
+  font-family: "Grey Qo", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #007bff !important;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: #fff;
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+.nav-item {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav-item a:hover {
+  color: #007bff !important;
+}
+
+.active{
+  color: #007bff !important;
+}
+
+.nav-search {
+  margin-left: 30px;
+  width: 25%;
+  display: flex;
+}
+.search-btn {
+  margin-left: -45px;
+  color: #6c757d;
+}
+
+.login-btn .btn{
+  font-size: 17px;
+  margin-top: 1px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-nav {
+    margin-right: 10px;
+  }
+  .nav-search {
+    margin-left: 0px;
+    width: 50%;
+  }
+}
+
+
+

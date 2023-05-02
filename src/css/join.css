@@ -1,0 +1,53 @@
+.btn {
+  font-size: 17px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70% !important;
+  border: 1px solid #c5d6d8;
+  border-radius: 4px;
+}
+
+.row{
+  margin: 1rem 0 1rem 0 !important;
+}
+.space{
+  width: 10px;
+}
+.form {
+  margin: auto 50px;
+  width: 60%;
+}
+
+.login-image {
+  width: 40%;
+  margin: 0 !important;
+}
+
+.login-image img {
+  width: 100%;
+  height: 85vh;
+}
+.image-loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .form {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .space{
+  width: 5px;
+}
+  .login-image {
+    display: none;
+  }
+
+}
